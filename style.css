@@ -104,8 +104,8 @@ nav a:hover {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
 }
 
 /* CARD DESIGN */
@@ -125,7 +125,7 @@ nav a:hover {
 
 .card img {
     width: 100%;
-    height: 250px;
+    height: 180px;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 15px;
